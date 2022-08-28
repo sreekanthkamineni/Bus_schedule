@@ -1,35 +1,42 @@
-Create vartual enviornment 
+Create virtual environment :-
 
-python3 -m venv myvenv
-
-
-activate vartual enviornment
-
-myvenv\Scripts\activate
+  python3 -m venv myvenv
 
 
-install the required packages
+
+activate virtual environment :-
+
+  myvenv\Scripts\activate
+
+
+
+
+install the required packages :-
 
 pip install -r requirements.txt
 
 
-create admin user 
+
+create admin user :-
 
 python manage.py createsuperuser
 
 
-run server
+
+run server:-
 
 python manage.py runserver
 
 
-admin url: 
+
+admin url: -
 
 http://127.0.0.1:8000/admin
 
-in admin pannel we need to add all the required informati (bus info, schedule info, driver info)
+in the admin panel, we need to add all the required information (bus info, schedule info, driver info)
 
 
-applicaiton url:
+
+applicaiton url:-
 
 http://127.0.0.1:8000
