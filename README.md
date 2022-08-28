@@ -17,6 +17,13 @@ pip install -r requirements.txt
 
 
 
+make databse migrations:-
+
+python manage.py makemigrations
+
+python manage.py migrate
+
+
 create admin user :-
 
 python manage.py createsuperuser
